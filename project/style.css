@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #0c0c0c;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 8px;
+   
+}
+
+.nav1 h6{
+    
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.nav1 img{
+    height: 45px;
+}
+
+.nav2{
+    height: 42px;
+    width: 506px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    
+    margin-top: 12px;
+   
+}
+
+.nav2 h4{
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.nav3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+   
+}
+
+
+.nav3 h4{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.nav4{
+    display: none;
+    font-size: 30px;
+
+}
+
+@media (max-width:750px){
+    nav{
+        padding: 10px 12px;
+    }
+    .nav1 h6{
+        font-size:20px ;
+    }
+    .nav1 img{
+        height: 40px;
+    }
+    .nav2{
+        display: none;
+    }
+    .nav3{
+        display: none;
+    }
+    .nav4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+main
+{
+    padding: 200px 30px;
+}
+.section1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px ;
+
+
+}
+
+.section1 .left{
+    width: 45%;
+   
+}
+.section1 .left h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.section1 .left .tags {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap:5px 5px;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+.section1 .left .tags h4{
+    background-color: gray;
+    padding: 10px 20px;
+}
+.section1 .left  .price{
+        font-size: 37px;
+}
+
+.section1 .left  .price span{
+    font-size: 35px;
+}
+
+.section1 .left h5{
+    font-size: 18px;
+    color: rgb(34, 216, 34);
+}
+
+.section1 .left .button {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 0px;
+    
+}
+
+.button button{
+    background-color: grey;
+    color: rgb(11, 7, 4);
+    height: 70px;
+    width: 170px;
+    font-size: 18px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.section1 .left h6{
+    font-size: 20px;
+    
+}
+.section1 .left .hh{
+    color: red;
+    text-decoration: underline;
+}
+.section1 .right .right-in{
+   border-radius: 5px;
+    width: 600px;
+   overflow: hidden;
+
+}
+
+.section1 .right .right-in .image{
+    width: 100%;
+}
+.section1 .right .right-in .image img{
+    width: 100%;
+}
+
+.section1 .right .right-in  .options{
+  padding: 10px;
+  background-color: gray;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+  gap: 15px 50px;
+}
+
+.section1 .right .right-in  .options h4{
+    padding: 5px 5px;
+    background-color: rgb(81, 81, 81);
+    width: 40%;
+
+}
