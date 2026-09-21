@@ -78,33 +78,11 @@ nav{
 
 }
 
-@media (max-width:750px){
-    nav{
-        padding: 10px 12px;
-    }
-    .nav1 h6{
-        font-size:20px ;
-    }
-    .nav1 img{
-        height: 40px;
-    }
-    .nav2{
-        display: none;
-    }
-    .nav3{
-        display: none;
-    }
-    .nav4{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-    }
-}
+
 
 main
 {
-    padding: 200px 30px;
+    padding: 150px 30px;
 }
 .section1{
     display: flex;
@@ -164,7 +142,11 @@ main
     height: 70px;
     width: 170px;
     font-size: 18px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    border-radius: 45px;
+    border: none;
+
 }
 .section1 .left h6{
     font-size: 20px;
@@ -183,9 +165,11 @@ main
 
 .section1 .right .right-in .image{
     width: 100%;
+    height: 350px;
 }
 .section1 .right .right-in .image img{
     width: 100%;
+    height: 100%;
 }
 
 .section1 .right .right-in  .options{
@@ -203,4 +187,106 @@ flex-wrap: wrap;
     background-color: rgb(81, 81, 81);
     width: 40%;
 
+}
+@media (max-width:770px){
+    nav{
+        padding: 10px 12px;
+    }
+    .nav1 h6{
+        font-size:20px ;
+    }
+    .nav1 img{
+        height: 40px;
+    }
+    .nav2{
+        display: none;
+    }
+    .nav3{
+        display: none;
+    }
+    .nav4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    
+}
+
+@media (max-width:1200px) {
+    .section1 .left h1{
+        font-size: 5vw;
+    }
+}
+@media (max-width:750px) {
+    .section1 .left h1{
+        font-size: 40px;
+    }
+    .section1 {
+        flex-direction: column-reverse;
+        padding: 2.5vw;
+    }
+    .section1 .left{
+        width: 100%;
+        padding-top: 10px;
+    }
+   
+    .section1 .right .right-in  {
+        width:100%;
+        
+
+    }
+    .section1 .right .right-in .image{
+
+        height: 50vw;
+    }
+    .section1 .right .right-in  .options{
+  padding: 5px 5px;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap; 
+}
+.section1 .right .right-in  .options h4{
+    padding: 5px 5px;
+   
+    font-size: 2.5vw;
+
+}
+.section1 .left  .price{
+        font-size: 6vw;
+}
+
+.section1 .left  .price span{
+    font-size: 6vw;
+}
+
+.section1 .left h5{
+    font-size: 3vw;
+    color: rgb(34, 216, 34);
+}
+   
+.section1 .left .button {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 0px;
+    
+}
+
+.button button{
+    
+   
+    width: 100%;
+    
+    
+    
+    
+
+}
+.section1 .left h6{
+    font-size: 3.5vw;
+    
+}
 }
